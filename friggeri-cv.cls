@@ -116,7 +116,7 @@
         black\or%
         black\or%
         black\or%
-        brown\else%
+        black\else%
         headercolor\fi%
     } #1#2#3%
   }%
@@ -157,7 +157,7 @@
 \begin{itemize}
 \let\olditem\item
 \vspace{-8pt}}%
-{\vspace*{-8pt}\end{itemize}}
+{\vspace*{-10pt}\end{itemize}}
 
 \setlength{\tabcolsep}{0pt}
 
@@ -221,7 +221,7 @@
   
 \newcommand{\entryFourItem}[4]{%
  	& \textbf{#1} &{\small\addfontfeature{Color=black} #2}\tabularnewline%
-    & #4 & {\small\addfontfeature{Color=black} #3} \tabularnewline%
+    & #4 & {\small\addfontfeature{Color=black} #3}\vspace*{2pt} \tabularnewline%
     }
 %%%%%%%%%%%%%%
 % Side block %
