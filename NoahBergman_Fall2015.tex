@@ -1,0 +1,286 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+%\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+
+
+
+\begin{document}
+
+\header{Noah}{Bergman}{Phone: 651-247-7668}{Nbergman@iastate.edu}{NoahBergman.com} % Your name and current job title/field
+
+%Add Qr code in bottom left corner
+%\begin{tikzpicture}[remember picture,overlay]%
+%  \node[anchor=north west,inner sep=0pt] at (-4.28,1.7){%-4.4, 1.7
+%     \includegraphics[width=3.6cm]{qr_website_bw.png}%
+%     };%
+%   %\node[anchor=south west] at (-4.9,-17.5){\Large Learn more at:};
+%  %\node[anchor=south west] at (-5.45,-18.25){\Large \textbf{\href{http://www.noahbergman.com}{noahbergman.com}}};
+%\end{tikzpicture}
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{aside} % In the aside, each new line forces a line break
+%\section{Contact}
+%\href{mailto:nbergman@iastate.edu}{nbergman@iastate.edu}~
+%(651)-247-7668~
+%~
+%\section{Skills}	
+%\flushleft \textbf{Programming:}~
+%\flushright C, Visual Basic, HTML~
+%\flushleft \textbf{Programs:}~
+%\flushright  Matlab, KiCad, Altium, Solidworks, Excel~
+%~
+%\section{Hobbies}	
+%\flushleft \textbf{Activities:}~
+%\flushleft \hspace{0.05in}Cheese Making,~
+%\flushleft \hspace{0.05in}Rock Climbing,~
+%\flushleft \hspace{0.05in}Water Polo,~
+%\flushleft \hspace{0.05in}Camping~
+%\flushleft \textbf{Volunteering:}~
+%\flushleft \hspace{0.05in}Habitat for Humanity~
+%\flushleft \hspace{0.05in}FTC Robotics,~
+%\end{aside}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Bachelors in Electrical Engineering}
+{Iowa State University}
+{2011-Present}
+{Expected Graduation: May 2015}
+{GPA: 2.7}
+%------------------------------------------------
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Altec Industries}
+{St. Joseph, MO}
+{Jan.-July 2015}
+{\emph{Manufacturing Engineer Coop: Electronics}}
+{\begin{itemizenosep}
+	\item Designed alarm unit for fiberglass resin tanks
+	\item Automated Altium to Solidworks BOM using Visual Basic
+	\item Designed process flow for proposed SMT production line
+\end{itemizenosep}}
+%------------------------------------------------
+\entry
+{CSG Electronics Shop}
+{Ames, IA}
+{2014-Present}
+{\emph{Shop Assistant}}
+{\begin{itemizenosep}
+	\item Designed testing unit for servos, op-amps, and transistors
+	\item Troubleshooted and repaired lab equipment and printers
+	%\item Maintained and tested lab equipment
+\end{itemizenosep}}
+%------------------------------------------------
+%\entry
+%{2013--2014}
+%{Electric Wholesale Inc.}
+%{Ames, IA}
+%{\emph{Warehouse Associate}
+%}
+%%------------------------------------------------
+%\entry
+%{2012-Present}
+%{Contemporary Services Corporation}
+%{Ames, IA}
+%{\emph{Event Security Guard}
+%}
+%---------------------------------------------------
+\entry
+{Swim America}
+{Ames, IA}
+{2011-2013}
+{\emph{Private Swim Instructor}}
+{}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-8pt}
+\section{Extracuriccular}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Engineers for a Sustainable World (ESW)}
+{2012-Present}
+{}
+{\emph{Vice President (Current), President, VP of International Projects}}
+{}
+%------------------------------------------------
+\entry
+{Institute for Electrical and Electronics Engineers  (IEEE)}
+{2012-Present}
+{}
+{\emph{Project Chair(Current), Web Media Chair, Project Leader}}
+{}
+%------------------------------------------------
+\entry
+{Habitat for Humanity}
+{2010-Present}
+{}
+{\emph{International and Local Volunteer}}
+{}
+%------------------------------------------------
+\entryFourItem
+{Water Polo Club}
+{2011-2014}
+{}
+{\emph{}}
+
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-8pt}
+\vspace{-8pt}
+\section{Project Experience}
+\begin{entrylist}
+%------------------------------------------------
+%\entry
+%{Electric Bike Computer}
+%{Personal}
+%{Present}
+%{\emph{Bike computer to be used for an electric bike}}
+%{}
+%------------------------------------------------
+\entry
+{Two-Wheeled, Bluetooth Balancing Robot}
+{Personal}
+{Present}
+{\emph{Small robots equipped with MSP432, IMU, and BLE/ANT}}
+{}
+%------------------------------------------------
+\entry
+{Project \textbf{$\mu$}Cube}
+{Personal}
+{2014--2015}
+{\emph{Capactiative Touch, LED Rubiks cube designed for Raspberry Pi}}
+{\begin{itemizenosep}
+	\item MSP432 with TI-RTOS, 108 TLC Channels, 25 touch zones
+\end{itemizenosep}}
+%------------------------------------------------
+\entry
+{Solar Street Light}
+{ESW}
+{2013--2014}
+{\emph{Electrical Project Leader}}
+{\begin{itemizenosep}
+	\item Designed controller and charger for solar light
+\end{itemizenosep}}
+%------------------------------------------------
+\entry
+{Water Collection System in Nicaragua}
+{ESW}
+{2014--2015}
+{\emph{Project Leader}}
+{\begin{itemizenosep}
+	\item Designed rain water collection tank for irrigation in Nicaragua
+\end{itemizenosep}}
+%-----------------------------------------------
+\vspace{-8pt}
+\entry
+{TV-B-Gone and Color Organ}
+{IEEE}
+{2013--2014}
+{\emph{Project Leader}}
+{\begin{itemizenosep}
+	\item Demonstrated basics of embedded programming, schematic and PCB design
+\end{itemizenosep}}
+%------------------------------------------------
+%\entry
+%{2014}
+%{House Construction in El Salvador}
+%{Habitat for Humanity}
+%{\emph{Volunteer}
+%\begin{itemizenosep}
+%	\item Worked with a team in El Salvador to build a house
+%\end{itemizenosep}}
+%%-------------------------------------------------
+\end{entrylist}
+\vspace{-8pt}
+\section{Awards}
+\begin{entrylist}
+\entryFourItem
+{Award for Competitive Excellence}
+{Iowa State University}
+{2011-Present}
+{\emph{Recurring Award}}
+%-------------------------------
+\entryFourItem
+{North Suburban Kiwanis Leadership Award}
+{Roseville, MN}
+{2011}
+{Recognized Leader in Volunteer Opportunities}
+\end{entrylist}
+\end{document}
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{interests}
+%
+%\textbf{professional:} data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing \textbf{personal:} piano, chess, cooking, dancing, running
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+%
+%\section{publications}
+%
+%\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+%
+%\printbibsection{book}{books} % Print all books from the bibliography
+%
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%
+%\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+%
+%\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
