@@ -79,20 +79,20 @@
       \fontsize{40pt}{72pt}\color{header}%
       {\bodyfont #1} {\bodyfont  #2}
     };
-     \node [anchor=north east](email) at (current page text area.north east |- 3,1.25) {%
-      \fontsize{12pt}{24pt}\color{header}%
+     \node [anchor=north east](email) at (current page text area.north east |- 3,1.95) {%
+      \fontsize{14pt}{24pt}\color{header}%
       \thinfont #4%
     };
      \node [anchor=north east] (phone) at (email.south east) {%
-      \fontsize{12pt}{24pt}\color{header}%
+      \fontsize{14pt}{24pt}\color{header}%
       \thinfont #3%
     };
      \node [anchor=north east](website) at (phone.south east) {%
-      \fontsize{12pt}{24pt}\color{header}%
+      \fontsize{14pt}{24pt}\color{header}%
       \thinfont #5%
     };
   \end{tikzpicture}
-  \vspace{-2\parskip}
+  \vspace{-3\parskip}
 }
 
 
@@ -124,7 +124,7 @@
 }
 
 \renewcommand{\section}[1]{
-  \par\vspace{\parskip}
+  \par\vspace{0pt}
   {%
     \LARGE\headingfont\color{headercolor}%
     \@sectioncolor #1%
