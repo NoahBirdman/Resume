@@ -1,0 +1,308 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{bergman-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+%\documentclass[]{bergman_cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+%\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+
+
+
+\begin{document}
+
+\header{Noah}{Bergman}{\href{http://www.noahbergman.com}{NoahBergman.com}}{\href{mailto:Noah.BergmanEE@gmail.com}{Noah.BergmanEE@gmail.com}}{(651)-247-7668} % Your name and current job title/field
+
+%Add Qr code in bottom left corner
+%\begin{tikzpicture}[remember picture,overlay]%
+%  \node[anchor=north west,inner sep=0pt] at (-4.28,1.7){%-4.4, 1.7
+%     \includegraphics[width=3.6cm]{qr_website_bw.png}%
+%     };%
+%   %\node[anchor=south west] at (-4.9,-17.5){\Large Learn more at:};
+%  %\node[anchor=south west] at (-5.45,-18.25){\Large \textbf{\href{http://www.noahbergman.com}{noahbergman.com}}};
+%\end{tikzpicture}
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{aside} % In the aside, each new line forces a line break
+%\section{Contact}
+%\href{mailto:nbergman@iastate.edu}{nbergman@iastate.edu}~
+%(651)-247-7668~
+%~
+%\section{Skills}	
+%\flushleft \textbf{Programming:}~
+%\flushright C, Visual Basic, HTML~
+%\flushleft \textbf{Programs:}~
+%\flushright  Matlab, KiCad, Altium, Solidworks, Excel~
+%~
+%\section{Hobbies}	
+%\flushleft \textbf{Activities:}~
+%\flushleft \hspace{0.05in}Cheese Making,~
+%\flushleft \hspace{0.05in}Rock Climbing,~
+%\flushleft \hspace{0.05in}Water Polo,~
+%\flushleft \hspace{0.05in}Camping~
+%\flushleft \textbf{Volunteering:}~
+%\flushleft \hspace{0.05in}Habitat for Humanity~
+%\flushleft \hspace{0.05in}FTC Robotics,~
+%\end{aside}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\begin{entrylist}
+%------------------------------------------------
+\entryFourItem
+{Bachelors in Electrical Engineering}
+{Ames, IA}
+{2011 - 2016}
+{Iowa State University of Science and Technology}
+%------------------------------------------------
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Relevant Work Experience}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Altec Industries}
+{St. Joseph, MO}
+{2016 - Present}
+{\emph{Controls Engineer}}
+{\begin{itemizenosep}
+	\item Lead electrical designer for multiple projects
+	\item High-speed circuit design for eMMC, USB 2.0, and SPI technology
+	\item Experience with CAN, CCP, Matlab Simulink, Solidworks, Altium, CANape
+	\item Designed product to exceed vibration, thermal, and EMI/EMC specs
+\end{itemizenosep}}
+%------------------------------------------------
+\entry
+{Altec Industries}
+{St. Joseph, MO}
+{2015}
+{\emph{Electronics Manufacturing Engineer}}
+{\begin{itemizenosep}
+	\item Identified more than $\$$70,000 in annual savings while leading monthly cost events
+	\item Designed manufacturing layout for SMT equipment
+\end{itemizenosep}}
+%------------------------------------------------
+\entry
+{ETG Electronics Shop}
+{Ames, IA}
+{2014 - 2016}
+{\emph{Shop Assistant}}
+{\begin{itemizenosep}
+	\item Developed and tested labs for TI's TIVA C series ARM-M4 processor in C
+	\item Designed remote datalogging device with LCD UI, navigation buttons, and ADC module
+%	\item Worked with professors and students to advise and troubleshoot various projects
+\end{itemizenosep}}
+%------------------------------------------------
+%\entry
+%{2013--2014}
+%{Electric Wholesale Inc.}
+%{Ames, IA}
+%{\emph{Warehouse Associate}
+%}
+%%------------------------------------------------
+%\entry
+%{2012-Present}
+%{Contemporary Services Corporation}
+%{Ames, IA}
+%{\emph{Event Security Guard}
+%}
+%---------------------------------------------------
+%\entry
+%{Swim America}
+%{Ames, IA}
+%{2011-2014}
+%{\emph{Private Swim Instructor}}
+%{}
+%------------------------------------------------
+\end{entrylist}
+\section{\sc Project Experience}
+\begin{entrylist}
+%------------------------------------------------
+\entryFourItem
+{Power Distribution Module}
+{Altec Industries}
+{2017}
+{\begin{itemizenosep}
+	\item Lead electrical engineer for module controlling 15 relays and 2400W
+	\item EMI/EMC, vibration, and thermal for ISO and EN compliance.
+	\item Worked with CM's to meet budget goals and improve manufacturability
+	\item Extensive use of CANape and CANking during testing and debugging
+	\item Developed low-voltage relay disconnect and IO monitoring circuitry
+\end{itemizenosep}}
+%------------------------------------------------
+\entryFourItem
+{Heads - Up - Display for a Manufacturing Microscope}
+{Honeywell - Senior Design}
+{2015 - 2016}
+{\begin{itemizenosep}
+	\item Designed optical system and circuit board to integrate with DLP Display
+	\item Worked with ARM-M4 and MSP430 to create user interface
+	\item Experience with HDMI and other Digital Video protocols
+\end{itemizenosep}}
+%------------------------------------------------
+\entryFourItem
+{Capacitive - Touch Rubik's Cube (LED Cube)}
+{Personal}
+{2014--2015}
+{\begin{itemizenosep}
+	\item MSP432 running TI-RTOS, 36 TLCs, IMU, Bluetooth
+	\item Custom designed capacitive touch zones for 2D scrolling
+	\item Collaborative software development in C/C++ 
+	\item I2C, SPI, USB 2.0 connected peripheral devices and debugging applications
+\end{itemizenosep}}
+%------------------------------------------------
+%\entry
+%{Solar Street Light}
+%{ESW}
+%{2013--2014}
+%{\emph{Project Leader}}
+%{\begin{itemizenosep}
+%	\item Designed light controller and solar battery charger in KiCad EDA
+%	\item Experimented with XBee, ADCs, and light detectors
+%\end{itemizenosep}}
+%------------------------------------------------
+%\entry
+%{Water Collection System in Nicaragua}
+%{ESW}
+%{2014--2015}
+%{\emph{Project Leader}}
+%{\begin{itemizenosep}
+%	\item International project opportunity in Nicaragua with local NGO
+%	\item Collaborated on design for ferro-cement water tank for irrigation
+%	\item Developed risk management plan with peers and study abroad office
+%\end{itemizenosep}}
+%-----------------------------------------------
+%\vspace{-8pt}
+%\entry
+%{TV-B-Gone and Color Organ}
+%{IEEE}
+%{2013--2014}
+%{\emph{Project Leader}}
+%{\begin{itemizenosep}
+%	\item Demonstrated basics of embedded programming, schematic and PCB design
+%	\item Prototyped designs by etching PCB blanks
+%\end{itemizenosep}}
+%------------------------------------------------
+%\entry
+%{2014}
+%{House Construction in El Salvador}
+%{Habitat for Humanity}
+%{\emph{Volunteer}
+%\begin{itemizenosep}
+%	\item Worked with a team in El Salvador to build a house
+%\end{itemizenosep}}
+%%-------------------------------------------------
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Extracurricular}
+\begin{entrylist}
+\entryFourItem
+{Kansas City Climbing Community}
+{2016 - Present}
+{}
+{\emph{Treasurer(Current)}}
+%------------------------------------------------
+%\entryFourItem
+%{FIRST Tech Challenge Volunteer}
+%{2015 - Present}
+%{}
+%{Volunteer Judge}
+%-------------------------------------------------
+\entryFourItem
+{Engineers for a Sustainable World (ESW)}
+{2012 - 2016}
+{}
+{\emph{President,Vice President, VP of International Projects}}
+
+%------------------------------------------------
+\entryFourItem
+{Institute for Electrical and Electronics Engineers  (IEEE)}
+{2012 - 2016}
+{}
+{\emph{Vice President, Project Chair, Web Media Chair, Project Leader}}
+%------------------------------------------------
+%\entryFourItem
+%{Habitat for Humanity}
+%{2010-Present}
+%{}
+%{\emph{International and Local Volunteer}}
+%------------------------------------------------
+%\entryFourItem
+%{Water Polo Club}
+%{2011-2014}
+%{}
+%{\emph{}}
+
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%      AWARDS SECTION
+%-----------------------------------------------------------------------------------------
+%\vspace{-8pt}
+%\section{Awards}
+%\begin{entrylist}
+%\entryFourItem
+%{Award for Competitive Excellence}
+%{Iowa State University}
+%{2011-Present}
+%{\emph{Recurring Award}}
+%%-------------------------------
+%\entryFourItem
+%{North Suburban Kiwanis Leadership Award}
+%{Roseville, MN}
+%{2011}
+%{Recognized Leader in Volunteer Opportunities}
+%\end{entrylist}
+%
+%
+%----------------------------------------------------------------------------------------
+%      SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-8pt}
+\section{Skills}
+\begin{entrylist}
+&\textbf{Proficient in:} C, MATLAB Scripts, Visual Basic, HTML, \LaTeX \\
+&\textbf{Basic Knowledge in:} C++, Python, Verilog HDL \\
+&\textbf{Software:} MATLAB Simulink, Solidworks, AutoCAD, Altium, KiCad, Eagle, Multisim,\newline Code Composer Studio, Visual Studio, Git, SVN, Linux, CANape, Canking \\
+&\textbf{Hardware Topologies:} Microchip DSpic series, TI MSP430 and CC3200, SI Labs Happy and Zero Gecko \\
+&\textbf{Hobbies:} Cheese Making, Rock Climbing, Hiking, Backyard Catapults, and Board Games\\
+\end{entrylist}
+\end{document}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+%
+
+%----------------------------------------------------------------------------------------
