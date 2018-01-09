@@ -29,8 +29,9 @@
 
 \begin{document}
 
-\header{Noah}{Bergman}{\href{http://www.noahbergman.com}{NoahBergman.com}}{\href{mailto:Noah.BergmanEE@gmail.com}{Noah.BergmanEE@gmail.com}}{(651)-247-7668} % Your name and current job title/field
-
+%\header{Noah}{Bergman}{\href{http://www.noahbergman.com}{NoahBergman.com}}{\href{mailto:Noah.BergmanEE@gmail.com}{Noah.BergmanEE@gmail.com}}{(651)-247-7668} % Your name and current job title/field
+\header{Noah}{Bergman}{\href{mailto:Noah.BergmanEE@gmail.com}{Noah.BergmanEE@gmail.com}}{(651)-247-7668}{} {}% Your name and current job title/field
+\vspace{10pt}
 %Add Qr code in bottom left corner
 %\begin{tikzpicture}[remember picture,overlay]%
 %  \node[anchor=north west,inner sep=0pt] at (-4.28,1.7){%-4.4, 1.7
@@ -76,42 +77,44 @@
 {St. Joseph, MO}
 {2016 - Present}
 {\emph{Controls Engineer}}
-{\begin{itemizenosep}
-	\item Successly designed 12" x 6" circuit board with mixed digital and analog circuitry and approximately 300 components.
+{\begin{itemize}	\setlength\itemsep{0.25em} \vspace*{-5pt}
+	\item Successly designed 12" x 6" circuit board with mixed analog/digital circuitry and over 300 components while meeting challenging budget goals and deadlines.
 	
-	\item Coordinated with CM to meet budget goals and improve  manufacturability.
+%	\item Developed automated test harness with CAN datalogging capabilities.
 	
-	\item Developed automated test harness with CAN datalogging capabilities.
-	
-	\item Tested designs to meet industry standard EMI/EMC and environmental specifications: ISO ... EN...
-	\item Low-power firmware design to maximize battery life.
-	\item Lead designer for datalogger board with high-speed eMMC, USB 2.0, and super-capacitor back-up power.
-	\item Created breakout board for debugging, which later became integral to project development on datalogger.
-	\item Extensive use of Altium, Solidworks, Autocad, Draftsight, SVN, MPLabX, CANape, and CANking.
-\end{itemizenosep}}
+	\item Tested designs to meet industry standard EMI/EMC and environmental specifications
+	\item Low-power firmware design on dsPIC33 to maximize battery life.
+	\item Lead designer for datalogger board with high-speed eMMC, USB 2.0, and super-capacitor back-up power, on 4 layer circuit board
+	\item Brainstormed a breakout board for debugging, which later became integral to project development on datalogger.
+	\item Extensive use of Altium, Solidworks, AutoCAD, Draftsight, SVN, MPLabX, CANape, CANking, Teamcenter, Oracle, Jira, Confluence, and Crucible
+\end{itemize}}
+\vspace{6pt}
 %------------------------------------------------
 \entry
 {Altec Industries}
 {St. Joseph, MO}
 {2015}
 {\emph{Electronics Manufacturing Engineer Co-op}}
-{\begin{itemizenosep}
+{\begin{itemize}	\setlength\itemsep{0.25em} \vspace*{-5pt}
 	\item Identified more than $\$$70,000 in annual savings while leading cost events.
-	\item Lead Rapid Continuous Improvement event to develop effecient surface mount manufacturing equipment layout.
+
+	%\item Leader for Rapid Continuous Improvement event to develop efficient surface mount manufacturing equipment layout.
 %	\item Worked with product engineers and manufacturing associates to improve manufacturability of several assemblies
 	\item Resolved significant component quality issue after initiating testing and coordinating with vendor.
-\end{itemizenosep}}
+\end{itemize}}
+\vspace{6pt}
 %------------------------------------------------
 \entry
 {ETG Electronics Shop}
 {Ames, IA}
 {2014 - 2016}
 {\emph{Shop Assistant}}
-{\begin{itemizenosep}
-	\item Developed and tested labs for TI's TIVA C series ARM-M4 processor in C.
+{\begin{itemize}	\setlength\itemsep{0.25em} \vspace*{-5pt}
+	\item Developed undergraduate labs for TI's TIVA C series ARM-M4 processor in C.
 	\item Designed remote datalogging device with LCD UI, navigation buttons, Real-Time Clock, and ADC Module.
 %	\item Worked with professors and students to advise and troubleshoot various projects
-\end{itemizenosep}}
+\end{itemize}}
+\vspace{6pt}
 %------------------------------------------------
 %\entry
 %{2013--2014}
@@ -142,35 +145,38 @@
 {PCB Piano}
 {Personal Project}
 {2017}
-{\begin{itemizenosep}
-	\item Designed custom circuit board in KiCAD with capactive touch interface, piezo, speaker, accelerometer, and LiPO charger, and USB 2.0
+{\begin{itemize}	\setlength\itemsep{0.25em} \vspace*{-5pt}
+	\item Designed custom circuit board in KiCAD with capactive touch interface, piezo speaker, accelerometer, LiPO charger, and USB 2.0
 	\item Developed library management standards for personal components in Github.
 	\item Wrote custom firmware in C/C++ for SI Labs 32-bit MCU.
-\end{itemizenosep}}
+\end{itemize}}
+\vspace{16pt}
 %------------------------------------------------
 \entryFourItem
-{Heads - Up - Display for a Manufacturing Microscope}
-{Honeywell - Senior Design}
+{Heads-Up Display for a Manufacturing Microscope}
+{Senior Design}
 {2015 - 2016}
-{\begin{itemizenosep}
+{\begin{itemize}	\setlength\itemsep{0.25em} \vspace*{-5pt}
 	\item Successfully integrated heads-up display that overlayed the work instructions inside of miscroscope to improve manufacturing process.
-	\item Researched and designed custom optical solution to integrate and focus display inside the field-of-view.
+	\item Researched,designed, and 3D printed, custom optical solution to integrate and focus display inside the field-of-view.
 	\item Design custom 4-layer circuit board	with HDMI, 24-bit RGB, and I2C databusses.
 	\item Custom software for MSP430 to interface with HDMI and DLP display driver.
-	\item 3D printed several bracket variations to meet demands of client.
-\end{itemizenosep}}
+%	\item 3D printed several bracket variations to meet demands of client.
+\end{itemize}}
+\vspace{10pt}
 %------------------------------------------------
 \entryFourItem
 {Capacitive - Touch Rubik's Cube (LED Cube)}
 {Personal Project}
 {2014--2015}
-{\begin{itemizenosep}
-	\item Collaborated with team to design a 10cm x 10cm circuit board cube with 2-D capacitive touch and 648 led channels.
-	\item Worked with software engineers to incorporate TI-RTOS on the MSP432.
-	\item Collaborative software development in C/C++.
+{\begin{itemize}	\setlength\itemsep{0.25em} \vspace*{-5pt}
+	\item Collaborated with team of 6 students to design a 10cm x 10cm circuit board cube with 2-D capacitive touch and 648 led channels in Multisim / Ultiboard.
+	\item Worked with software engineers to incorporate TI-RTOS on the MSP432 using C/C++
+%	\item Collaborative software development in C/C++.
 	\item I2C, SPI, USB 2.0 connected peripheral devices and debugging applications.
-	\item Worked on schematics and layout in Multisim / Ultiboard.
-\end{itemizenosep}}
+
+\end{itemize}}
+%\vspace{6pt}
 %------------------------------------------------
 %\entry
 %{Solar Street Light}
@@ -258,6 +264,7 @@
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
+\vspace*{-6pt}
 \section{Education}
 \begin{entrylist}
 %------------------------------------------------

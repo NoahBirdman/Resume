@@ -170,12 +170,13 @@
 
 \setlength{\tabcolsep}{0pt}
 
-\newcolumntype{L}{>{\hsize=1cm\raggedleft}X}%
-
+\newcolumntype{L}{>{\hsize=0.5cm\raggedleft}X}%
+\newcolumntype{C}{>{\raggedright}X}%
+\newcolumntype{R}{>{\hsize=2.5cm\raggedleft}X}%
 \newenvironment{entrylist}{%
   %\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}%Original
-  \vspace{-8pt}
-  \tabularx{\textwidth}{LXr}
+%  \vspace{-8pt}
+  \tabularx{\textwidth}{LCR}
   %\begin{tabular*}{\textwidth}{l}
 }{%
   \endtabularx
@@ -223,7 +224,7 @@
 %    }
 
 \newcommand{\entry}[5]{%
- 	& \textbf{#1} &{\small\addfontfeature{Color=black} #2}\tabularnewline%
+ 	& \textbf{#1} &{\small\addfontfeature{Color=black} #2}\tabularnewline\vspace{2em}%
     & #4 & {\small\addfontfeature{Color=black} #3} \tabularnewline%
     & #5 & \tabularnewline%
     }
